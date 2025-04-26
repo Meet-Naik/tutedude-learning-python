@@ -1,0 +1,15 @@
+#task 1:perform basic mathematical operations
+A = input("Enter the first number: ")
+B = input("Enter the second number: ")
+A = float(A)
+B = float(B)
+print("Addition:" ,A+B)
+print("Subtraction:" ,A-B)
+print("Multiplication:" ,A*B)
+print("Division:" ,A/B)
+
+#create a personalized greeting
+A = input("Enter the first name: ")
+B = input("Enter the second name: ")
+C = A+" "+B+"!"
+print("Hello",C, "Welcome to the python program.")
